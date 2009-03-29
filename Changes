@@ -1,0 +1,14 @@
+Revision history for WWW-Spamla
+
+0.04  Sat Dec 1 03:02:49 UTC 2007
+    - Used warnings for better kwalitee.
+
+0.03  Sun Sep 9 3:34:35 GMT 2007
+    - Parsed response content_ref instead of content.
+    - Added use strict to tests.
+
+0.02  Tue Aug 28 20:26:59 GMT 2007
+    - Fixed typo in PREREQ_PM.
+
+0.01  Sun Aug 19 06:46:54 GMT 2007
+    - Initial distribution.
