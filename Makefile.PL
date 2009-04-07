@@ -17,11 +17,13 @@ WriteMakefile(
         'Test::More'            => 0,
         'URI'                   => 0,
     },
-    (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
-        resources => {
-            Repository => 'http://github.com/gray/www-spamla'
+    (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (
+        META_MERGE => {
+            resources => {
+                repository => 'http://github.com/gray/www-spamla',
+            }
         }
-    }) : () ),
+    ) : () ),
     dist          => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean         => { FILES => 'WWW-Spamla-*' },
 );
